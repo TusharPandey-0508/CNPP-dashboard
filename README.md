@@ -1,4 +1,4 @@
-# CNAPP Dashboard - Exact Clone (Dynamic)
+# CNAPP Dashboard 
 
 This project implements the dynamic dashboard you requested:
 - 3 sections: CSPM Executive Dashboard, CWPP Dashboard, Registry Scan
