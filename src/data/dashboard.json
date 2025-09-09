@@ -1,0 +1,115 @@
+{
+  "categories": [
+    {
+      "id": "cat-cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "w-cloud-1",
+          "title": "Cloud Accounts",
+          "type": "donut",
+          "content": "Connected vs Not Connected",
+          "data": [
+            {
+              "name": "Connected",
+              "value": 1
+            },
+            {
+              "name": "Not Connected",
+              "value": 2
+            }
+          ],
+          "colors": [
+            "#2E6FD8",
+            "#E6E9EF"
+          ]
+        },
+        {
+          "id": "w-risk-1",
+          "title": "Cloud Account Risk Assessment",
+          "type": "donut",
+          "content": "Risk distribution",
+          "data": [
+            {
+              "name": "Failed",
+              "value": 686
+            },
+            {
+              "name": "Warning",
+              "value": 343
+            },
+            {
+              "name": "Not Reviewed",
+              "value": 129
+            },
+            {
+              "name": "Passed",
+              "value": 756
+            }
+          ],
+          "colors": [
+            "#E53935",
+            "#FB8C00",
+            "#FDD835",
+            "#43A047"
+          ]
+        },
+        {
+          "id": "w-placeholder-1",
+          "title": "Top Framework Specific Alerts",
+          "type": "empty",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "id": "cat-cwpp",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "w-workload-1",
+          "title": "Workload Alerts",
+          "type": "empty",
+          "content": ""
+        },
+        {
+          "id": "w-placeholder-2",
+          "title": "Top Image Issues",
+          "type": "empty",
+          "content": ""
+        },
+        {
+          "id": "w-placeholder-3",
+          "title": "Add Widget Slot",
+          "type": "empty",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "id": "cat-registry",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "w-registry-1",
+          "title": "Registry Scan",
+          "type": "bar",
+          "content": "Registry scan summary"
+        },
+        {
+          "id": "w-image-1",
+          "title": "Image Security Issues",
+          "type": "bar",
+          "content": "Image issues summary"
+        },
+        {
+          "id": "w-placeholder-4",
+          "title": "Add Widget Slot",
+          "type": "empty",
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "search": ""
+}
